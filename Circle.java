@@ -14,12 +14,12 @@ public class Circle extends Shape{
 	}
 	
 	public double getArea() {
-		double area = 3.14 * radius * radius;
+		double area = Math.PI * radius * radius;
 		return area;
 	}
 	
 	public double getPerimeter() {
-		double peri = 2 * radius * 3.14;
+		double peri = 2 * radius * Math.PI;
 		return peri;
 	}
 	
